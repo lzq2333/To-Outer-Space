@@ -1,0 +1,17 @@
+title To Outer Space
+start_game Start
+quit_game Quit
+set Set
+setPanel Setting
+music Music
+effect Effect
+speed Speed
+language Language
+currentLanguage English
+restart Restart
+next_level Next Level
+victory Victory
+defeat Defeat
+remain_jet Remaining Fuel: 
+backMain ReturnMain
+data Data

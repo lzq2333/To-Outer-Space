@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878afbc691d2dab4f93177faad10810a, type: 3}
+  m_Name: UIIntroduction
+  m_EditorClassIdentifier: 
+  uIIntroductionInfos:
+  - level: 1
+    introduce: {fileID: 4473855047393965090, guid: e6bb8849b7a2c6940b01e02e8b71b4de,
+      type: 3}
+  - level: 2
+    introduce: {fileID: 4473855047393965090, guid: 62c18e8494eb5e44686c38fee2071867,
+      type: 3}
+  - level: 3
+    introduce: {fileID: 4473855047393965090, guid: c5127dba08c83d94aa9bd7110a6dd9d4,
+      type: 3}
+  - level: 4
+    introduce: {fileID: 4473855047393965090, guid: 3206be941314a4f40bb7a31e3822d5f2,
+      type: 3}
+  - level: 5
+    introduce: {fileID: 4473855047393965090, guid: defed17b6569f0d44b0e529394b35ea8,
+      type: 3}
+  - level: 6
+    introduce: {fileID: 4473855047393965090, guid: 225010f27970072438aebc6368880cd9,
+      type: 3}
+  - level: 7
+    introduce: {fileID: 4473855047393965090, guid: 1a3ea8813fe293343aff603419166910,
+      type: 3}
+  - level: 8
+    introduce: {fileID: 4473855047393965090, guid: 9959e6f767a1fb74885ade361794f73f,
+      type: 3}
+  - level: 9
+    introduce: {fileID: 4473855047393965090, guid: 265de4d1f26570940a9e034b21705e38,
+      type: 3}
+  - level: 10
+    introduce: {fileID: 4473855047393965090, guid: dfc3485654c9a8348b112db000643055,
+      type: 3}
+  levelButtons:
+  - {fileID: 21300000, guid: 8ce68e5ced1c0994fa77176e0e610714, type: 3}
+  - {fileID: 21300000, guid: 9001620b70ef0094ba82826d931f39f0, type: 3}
+  - {fileID: 21300000, guid: 03b2ffd356dbbe44cb54a69deb538acf, type: 3}
+  - {fileID: 21300000, guid: 9fe2f68486e34af4abbe59cc47abc924, type: 3}
+  - {fileID: 21300000, guid: 68bfe01b87eebbe4e9bf8bef5874b1a9, type: 3}
+  - {fileID: 21300000, guid: 276e95348e97c6d4f9432dff75ad63a9, type: 3}
+  - {fileID: 21300000, guid: 3453d42a94fd7c049b1f354780a845a3, type: 3}
+  - {fileID: 21300000, guid: 8ce68e5ced1c0994fa77176e0e610714, type: 3}
+  - {fileID: 21300000, guid: 9001620b70ef0094ba82826d931f39f0, type: 3}
+  - {fileID: 21300000, guid: 9fe2f68486e34af4abbe59cc47abc924, type: 3}
+  videoTips:
+  - level: 1
+    videoClip:
+    - {fileID: 32900000, guid: ab73cf57fbe605144888eabdd8954aff, type: 3}
+    - {fileID: 32900000, guid: 26d73bd5a1720ed408e2c8a54d922265, type: 3}
+    - {fileID: 32900000, guid: 0873b378a7940344693920644e2e3b18, type: 3}
+    txt_videoTips:
+    - "\u4F7F\u7528\u9F20\u6807\u53EF\u4EE5\u62D6\u62FD\u536B\u661F\uFF0C\u5982\u679C\u540E\u6094\u64CD\u4F5C\u4E86\uFF0C\u53EF\u4EE5\u62D6\u5230X\u952E\u5904\u53D6\u6D88\u54E6"
+    - "\u62D6\u52A8\u9F20\u6807\u540E\uFF0C\u5728\u536B\u661F\u5C3E\u90E8\u677E\u5F00\u5C31\u53EF\u4EE5\u52A0\u901F\u5566\u3002\u770B\u5230\u6CA1\uFF0C\u5B83\u7684\u8F68\u9053\u53D8\u5927\u4E86\u5462"
+    - "\u6211\u4EEC\u8FD8\u6CA1\u6709\u5B8C\u5168\u98DE\u51FA\u84DD\u8272\u5708\u5B50\uFF01\u4E3A\u4E86\u8F68\u9053\u53D8\u6210\u5B8C\u5168\u79BB\u5F00\u5708\u5B50\u8303\u56F4\u7684\u5927\u5706\uFF0C\u8BF7\u5728\u661F\u7403\u7684\u6700\u8FDC\u70B9\u52A0\u901F\u54E6"
+  - level: 2
+    videoClip:
+    - {fileID: 32900000, guid: bedfa6ec4ea36ec4983824289bdd2360, type: 3}
+    - {fileID: 32900000, guid: fd366ce6fd4084446bd2c01162058ba6, type: 3}
+    txt_videoTips:
+    - "\u62D6\u52A8\u9F20\u6807\uFF0C\u8BA9\u536B\u661F\u5B8C\u5168\u8C03\u8F6C\u8FC7\u6765\u5427\u3002\u53EA\u6709\u8FD9\u6837\u5B83\u624D\u80FD\u5B8C\u5168\u51CF\u901F\uFF0C\u8F68\u9053\u53D8\u5C0F\u5462"
+    - "\u8DDD\u79BB\u80DC\u5229\u53EA\u5DEE\u4E00\u6B65\u5566\uFF01\uFF0C\u8BF7\u5728\u8DDD\u661F\u7403\u6700\u8FD1\u70B9\u5904\u7EE7\u7EED\u51CF\u901F\u5427\uFF01"
+  - level: 3
+    videoClip:
+    - {fileID: 32900000, guid: 4a293a1ae23c87a4e9f8b60fc557526f, type: 3}
+    - {fileID: 32900000, guid: 2278e16147615804783c598586c9e830, type: 3}
+    - {fileID: 32900000, guid: 7d53dc4a8b87c7543a181fd8b2462831, type: 3}
+    txt_videoTips:
+    - "\u7CDF\u7CD5\uFF01\u9ED1\u6D1E\u5C31\u5728\u4E2D\u95F4\u3002\u4E0D\u8FC7\u522B\u6025\uFF0C\u4E3A\u4E86\u8EB2\u907F\u5B83\u8BF7\u5728\u661F\u7403\u4E0A\u65B9\u7684\u4F4D\u7F6E\u52A0\u901F\u54E6\uFF01\u5982\u679C\u63A7\u5236\u4E0D\u597D\u7684\u8BDD\uFF0C\u591A\u5C1D\u8BD5\u4F7F\u7528\u6682\u505C\u548C\u964D\u901F\u952E\u6765\u5E2E\u52A9\u4F60\u5427\uFF01"
+    - "\u975E\u5E38\u597D\uFF01\u63A5\u4E0B\u6765\u5728\u5DE6\u4FA7\u6700\u8FD1\u70B9\u7EE7\u7EED\u52A0\u901F\u5427\uFF0C\u4E0D\u7528\u62C5\u5FC3\u770B\u4E0D\u89C1\u536B\u661F\uFF0C\u661F\u7403\u7684\u5F15\u529B\u5F88\u5927\u54E6\u3002"
+    - "\u7EC8\u70B9\u8FD1\u5728\u54AB\u5C3A\u5566\uFF01\u9F20\u6807\u62D6\u52A8\u4F60\u7684\u536B\u661F\uFF0C\u8BA9\u8F68\u8FF9\u7A7F\u8FC7\u76EE\u6807\u70B9\u5427\uFF01\u8BB0\u5F97\u7528\u6682\u505C\u548C\u964D\u901F\u952E\u55BD\uFF01"
+  - level: 4
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 5
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 6
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 7
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 8
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 9
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  - level: 10
+    videoClip:
+    - {fileID: 0}
+    txt_videoTips: []
+  lockDataBase: {fileID: 6073583025428887793, guid: 310856a2f65164344b688fd5e2243e64,
+    type: 3}
+  secondTitleImg: {fileID: 21300000, guid: 2b037a4e192940249b1278f343a6ba9c, type: 3}
